@@ -12,11 +12,10 @@ type Person struct {
 
 func PrintInfo(p []Person) {
 	for _, person := range p {
-
 		fmt.Printf("Name: %s, Age: %d\n", person.Name, person.Age)
-
 	}
 }
+
 func main() {
 	persons := []Person{
 		{Name: "234", Age: 23},
